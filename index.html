@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <a href="#"><img src="../../img/logo.jpg" alt="logo" /></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="./src/template/koleksi.html">Collection</a>
+                    </li>
+                    <li>
+                        <a href="./src/template/about-us.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="slides">
+                <!-- radio -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <!-- radio -->
+
+                <!-- Slide image -->
+                <div class="slide first">
+                    <img src="./img/hero.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/hero2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/hero3.png" alt="">
+                </div>
+                <!-- Slide imags -->
+
+                <!-- auto -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+                <!-- auto -->
+            </div>
+            <!-- manual -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+            <!-- manual -->
+
+
+            <!-- <div class="prev">
+               <img src="../../img/prev.png" alt="">
+            </div>
+
+            <div class="img-hero">
+                <img src="../../img/hero.jpg" alt="">
+            </div>
+            
+            <div class="next">
+                <img src="../../img/next.png" alt="">
+             </div> -->
+        </div>
+
+        <!-- Section1 -->
+        <div class="section1">
+            <div class="sepatu1 teks-section1">
+                <a href="./src/template/koleksi-sepatu1.html">GYM SNEAKERS</a> 
+            </div>
+            <div class="sepatu2 teks-section1">
+                <a href="./src/template/koleksi-sepatu1.html">Hiking Boots</a> 
+            </div>
+            <div class="sepatu3 teks-section1">
+                <a href="./src/template/koleksi-sepatu3.html">Work Boots</a> 
+            </div>
+            <div class="sepatu4 teks-section1">
+                <a href="./src/template/koleksi-sepatu2.html">Chuckass</a>
+            </div>
+            <div class="Toko"></div>
+        </div>
+
+        <!-- Section2 -->
+        <div class="section2">
+            <div class="judul">
+                <p>NEW ARRIVALS</p>
+            </div>
+            <div class="kontens">
+                <div class="konten1">
+                    <img src="./img/arrival1.jpg" alt="arrival1">
+                    <p class="judul-sepatu">MEN'S NIKE AIR MAX 270 CASUAL SHOES</p>
+                    <p class="harga">$150.00</p>
+                </div>
+                <div class="konten2">
+                    <img src="./img/arrival2.jpg" alt="arrival2">
+                    <p class="judul-sepatu">MEN'S NIKE CORTEZ BASIC CASUAL SHOES</p>
+                    <p class="harga">$90.00</p>
+                </div>
+                <div class="konten3">
+                    <img src="./img/arrival3.jpg" alt="arrival3">
+                    <p class="judul-sepatu">MEN'S NIKE CRATER IMPACT CASUAL SHOES</p>
+                    <p class="harga">$100.00</p>
+                </div>
+                <div class="konten4">
+                    <img src="./img/arrival4.jpg" alt="arrival4">
+                    <p class="judul-sepatu">MEN'S NIKE WAFFLE ONE CASUAL SHOES</p>
+                    <p class="harga">$100.00</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="logo">
+                <img src="./img/logo.jpg" alt="logo">
+            </div>
+            <div class="copy">Copyright &copy 2021 by Octavianus Fian</div>
+            <div class="sosmed">
+                <a href="#">
+                    <img src="./img/Group 9.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/Group 10.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/Group 11.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/Group 12.png" alt="">
+                </a>
+            </div>
+        </footer>
+        
+
+
+    </div>
+    
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio'+ counter).checked = true;
+        counter++;
+        if(counter > 3){
+            counter=1;
+        }
+    }, 4000);
+</script>
+    
+</body>
+</html>

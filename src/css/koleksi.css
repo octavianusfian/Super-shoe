@@ -1,0 +1,129 @@
+body {
+  margin: 0 40px;
+}
+
+.container {
+  display: grid;
+}
+
+header {
+  margin: 20px 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 25px;
+  justify-items: center;
+  align-items: center;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  display: grid;
+  width: 100%;
+  height: 150px;
+  background-color: #f4f4f4;
+  justify-content: center;
+  align-content: center;
+}
+
+.links h1 {
+  font-size: 25px;
+  /* align-content: flex-end; */
+}
+
+.link {
+  margin-left: -20px;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.section1 {
+  width: 100%;
+
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.list {
+  border: 1px solid grey;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+
+.list img {
+  width: 400px;
+  height: 400px;
+  margin: 70px auto;
+}
+
+.price {
+  text-align: center;
+  border: 1px solid grey;
+}
+
+
+.price h3 {
+  font-size: 25px;
+}
+
+.price button {
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 60px;
+  background-color: green;
+  color: white;
+}
+
+.price a{
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 200px 350px 300px;
+  justify-content: space-between;
+  /* justify-items: center; */
+  align-items: center;
+}
+
+.copy {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sosmed {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 25px;
+  /* background-color: whitesmoke; */
+}
+
+
